@@ -2,7 +2,7 @@
 generatorOptions:
   disableNameSuffixHash: true
   labels:
-    grafana_dashboard: "1"
+    grafana_dashboard: "true"
 commonAnnotations:
   grafana_folder: "Kubernetes"
 #namespace: monitoring
