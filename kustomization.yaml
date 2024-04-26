@@ -40,6 +40,9 @@ configMapGenerator:
 # Shared Services / Addons Dashboards
 #################################################
 
+- name: cilium-dashboard
+  files: [ dashboards/cilium.json ]
+
 - name: minio-dashboard
   files: [ dashboards/minio.json ]
 
