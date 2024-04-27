@@ -46,6 +46,9 @@ configMapGenerator:
 - name: hubble-dashboard
   files: [ dashboards/hubble.json ]
 
+- name: hubble-l7-http-dashboard
+  files: [ dashboards/hubble-l7-http-metrics.json ]
+
 - name: minio-dashboard
   files: [ dashboards/minio.json ]
 
