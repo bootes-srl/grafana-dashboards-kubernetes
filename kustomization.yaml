@@ -43,6 +43,9 @@ configMapGenerator:
 - name: cilium-dashboard
   files: [ dashboards/cilium.json ]
 
+- name: hubble-dashboard
+  files: [ dashboards/hubble.json ]
+
 - name: minio-dashboard
   files: [ dashboards/minio.json ]
 
