@@ -58,5 +58,7 @@ configMapGenerator:
 - name: keycloak-dashboard
   files: [ dashboards/keycloak.json ]
 
+- name: mysql-exporter-dashboard
+  files: [ dashboards/mysql-exporter.json ]
 
   
