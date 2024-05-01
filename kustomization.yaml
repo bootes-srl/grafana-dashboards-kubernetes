@@ -61,4 +61,6 @@ configMapGenerator:
 - name: mysql-exporter-dashboard
   files: [ dashboards/mysql-exporter.json ]
 
+- name: mongodb-exporter-dashboard
+  files: [ dashboards/mongodb-exporter.json ]
   
