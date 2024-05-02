@@ -64,3 +64,5 @@ configMapGenerator:
 - name: mongodb-exporter-dashboard
   files: [ dashboards/mongodb-exporter.json ]
   
+- name: es-exporter-dashboard
+  files: [ dashboards/es-exporter.json ]
