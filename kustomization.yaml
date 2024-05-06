@@ -66,3 +66,12 @@ configMapGenerator:
   
 - name: es-exporter-dashboard
   files: [ dashboards/es-exporter.json ]
+
+# grafana tempo dashboard not imported
+
+# grafana alloy dashboard not imported
+  
+# grafana loki dashboard imported via helm chart definition
+  
+- name: grafana-dashboard
+  files: [ dashboards/grafana.json ]
