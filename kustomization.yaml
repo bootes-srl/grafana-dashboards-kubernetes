@@ -75,3 +75,7 @@ configMapGenerator:
   
 - name: grafana-dashboard
   files: [ dashboards/grafana.json ]
+
+
+- name: postgresql-dashboard
+  files: [ dashboards/postgresql.json ]
