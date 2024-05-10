@@ -79,3 +79,6 @@ configMapGenerator:
 
 - name: postgresql-dashboard
   files: [ dashboards/postgresql.json ]
+  
+- name: coder-dashboard
+  files: [ dashboards/coder.json ]
