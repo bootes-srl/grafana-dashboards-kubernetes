@@ -82,3 +82,8 @@ configMapGenerator:
   
 - name: coder-dashboard
   files: [ dashboards/coder.json ]
+  
+# strimzi dashboards imported via operator helm chart
+
+- name: vault-dashboard
+  files: [ dashboards/vault.json ]
