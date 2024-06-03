@@ -87,3 +87,6 @@ configMapGenerator:
 
 - name: vault-dashboard
   files: [ dashboards/vault.json ]
+
+- name: argo-workflow-dashboard
+  files: [ dashboards/argo-workflow.json ]
