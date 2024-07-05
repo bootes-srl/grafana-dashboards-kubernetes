@@ -90,3 +90,6 @@ configMapGenerator:
 
 - name: argo-workflow-dashboard
   files: [ dashboards/argo-workflow.json ]
+
+- name: k8up-dashboard
+  files: [ dashboards/k8up.json ]
