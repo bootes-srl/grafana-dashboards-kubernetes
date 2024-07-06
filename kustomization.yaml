@@ -93,3 +93,6 @@ configMapGenerator:
 
 - name: k8up-dashboard
   files: [ dashboards/k8up.json ]
+
+- name: sonarqube-dashboard
+  files: [ dashboards/sonarqube.json ]
