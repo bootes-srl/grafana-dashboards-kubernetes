@@ -96,3 +96,6 @@ configMapGenerator:
 
 - name: sonarqube-dashboard
   files: [ dashboards/sonarqube.json ]
+
+- name: rabbitmq-overview-dashboard
+  files: [ dashboards/rabbitmq-overview.json ]  
