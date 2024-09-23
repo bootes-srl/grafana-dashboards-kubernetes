@@ -99,3 +99,6 @@ configMapGenerator:
 
 - name: rabbitmq-overview-dashboard
   files: [ dashboards/rabbitmq-overview.json ]  
+  
+- name: teleport-dashboard
+  files: [ dashboards/teleport.json ]    
